@@ -61,3 +61,6 @@ Bu adımları gerçekleştirdiğinde json formatında bir kod göreceksin :)
 - Aktif, kritik ve iyileşen vaka sayıları
 
 gibi bilgiler alınarak oluşturulan dataframe ile veri analizi yapılarak veri görselleştirilecektir.
+
+## İletişim:
+Takıldığın yerde bana mail adresimden ulaşabilirsin -> tubakbass0@gmail.com
