@@ -21,6 +21,8 @@ Bu proje, COVID-19 istatistiklerini çekmek için Rapid API kullanılarak oluşt
 
 5. Python kodunu çalıştırarak COVID-19 istatistiklerini çekebilirsiniz.
 
+6. Python 3.10.8 sürümü kullanılmıştır.
+
 ## Kullanım:
 
 1. API anahtarınızı script içinde belirtin.
