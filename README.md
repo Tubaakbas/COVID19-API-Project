@@ -33,6 +33,7 @@ Bu proje, COVID-19 istatistiklerini çekmek için Rapid API kullanılarak oluşt
 ## Örnek Kod:
 
 import http.client
+
 import json
 
 conn = http.client.HTTPSConnection("covid-193.p.rapidapi.com")
