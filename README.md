@@ -56,11 +56,13 @@ Bu adımları gerçekleştirdiğinde json formatında bir kod göreceksin :)
 
 ## Sonuçlar:
 
-- Kıta, Ülke, Populasyon
-- Toplam vaka, ölüm ve test sayısı,
-- Aktif, kritik ve iyileşen vaka sayıları
+- 'Continent', 'Country', 'Population', 'Total_Cases','Total_Tests', 'Total_Deaths', 'Cases_Active', 'Cases_Critical', 'Cases_Recovered': sütun bilgileri alınarak covid19_df isimli bir veri seti oluşturuldu.
 
-gibi bilgiler alınarak oluşturulan dataframe ile veri analizi yapılarak veri görselleştirilecektir.
+- Oluşturulan veri setinde eksik veriler dolduruldu.
+
+- Pandas ayarlarını kullanarak bilimsel gösterimi kapatıldı.
+- Veri Analizi yapıldı.
 
 ## İletişim:
-Takıldığın yerde bana mail adresimden ulaşabilirsin -> tubakbass0@gmail.com
+
+Soruların veya önerilerin için bana mail adresimden ulaşabilirsin -> tubakbass0@gmail.com
