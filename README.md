@@ -57,12 +57,17 @@ Bu adımları gerçekleştirdiğinde json formatında bir kod göreceksin :)
 
 ## Sonuçlar:
 
-- 'Continent', 'Country', 'Population', 'Total_Cases','Total_Tests', 'Total_Deaths', 'Cases_Active', 'Cases_Critical', 'Cases_Recovered': sütun bilgileri alınarak covid19_df isimli bir veri seti oluşturuldu.
+- API Key kullanılarak JSON formatında veri çekildi.
+
+- 'Continent', 'Country', 'Population', 'Total_Cases','Total_Tests', 'Total_Deaths', 'Cases_Active', 'Cases_Critical', 'Cases_Recovered': sütun bilgilerini içeren covid19_df isimli bir veri seti oluşturuldu.
 
 - Oluşturulan veri setinde eksik veriler dolduruldu.
 
 - Pandas ayarlarını kullanarak bilimsel gösterimi kapatıldı.
-- Veri Analizi yapıldı.
+
+- Veri Analizinin daha güzel sonuçlar getirebilmesi için filtreleme işlemleri yapıldı.
+
+- Veri Analizi gerçekleştirildi.
 
 ## İletişim:
 
