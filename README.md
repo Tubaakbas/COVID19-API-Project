@@ -4,7 +4,25 @@ COVID-19 API PROJECT
 
 ## Açıklama:
 
-Bu proje, COVID-19 istatistiklerini çekmek için Rapid API kullanılarak oluşturulmuştur.
+- Bu proje, COVID-19 istatistiklerini çekmek için Rapid API kullanılarak oluşturulmuştur.
+- covid19_api_project.ipynb dosyası içerisinde tüm kodları görebilirsiniz.
+
+## Modüler Yapı
+
+Proje, daha modüler bir yapı kullanılarak aşağıdaki bölümlere ayrılmıştır:
+   -  main.ipynb:
+     - JSON Verisini İnceleme,
+     - DataFrame Oluşturma,
+     - DataFrame İnceleme,
+     - Eksik Verilerin Doldurulması,
+     - Pandas ayarlarını geçici olarak değiştirerek bilimsel gösterimi ve ondalık sıfırları kapatma,
+     - Belirli satırların çıkarılması işlemleri gerçekleştirilmiştir.
+    
+   - baglanti.py:
+   -    Bu dosyada, JSON formatında verinin alınması için HTTP bağlantısının nasıl yapılacağına dair kodlar bulunmaktadır.
+     
+   - analysis.ipynb:
+   -    Bu dosyada veri görselleştirme kodlarına ve çıktılarına ulaşabilirsiniz.
 
 ## Kurulum:
 
