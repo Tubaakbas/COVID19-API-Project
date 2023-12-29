@@ -12,14 +12,13 @@ COVID-19 API PROJECT
 Proje, daha modüler bir yapı kullanılarak aşağıdaki bölümlere ayrılmıştır:
    -  main.ipynb:
      - JSON Verisini İnceleme,
-     - DataFrame Oluşturma,
      - DataFrame İnceleme,
      - Eksik Verilerin Doldurulması,
      - Pandas ayarlarını geçici olarak değiştirerek bilimsel gösterimi ve ondalık sıfırları kapatma,
      - Belirli satırların çıkarılması işlemleri gerçekleştirilmiştir.
     
-   - baglanti.py:
-   -    Bu dosyada, JSON formatında verinin alınması için HTTP bağlantısının nasıl yapılacağına dair kodlar bulunmaktadır.
+   - baglanti_dataframe.py:
+   -    Bu dosyada, JSON formatında verinin alınması için HTTP bağlantısının nasıl yapılacağına ve dataframe'in nasıl oluşturulacağına dair kodlar bulunmaktadır.
      
    - analysis.ipynb:
    -    Bu dosyada veri görselleştirme kodlarına ve çıktılarına ulaşabilirsiniz.
