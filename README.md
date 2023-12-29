@@ -33,13 +33,13 @@ Proje, daha modüler bir yapı kullanılarak aşağıdaki bölümlere ayrılmı�
 3. Searh endpoints->Statistics'e tıklayarak tüm ülkeler için tüm güncel istatistiklerin getirilmesi için açılan kod penceresinden python->http.client 'e tıklayabilirsin.Python kodunu al ve kendi projene entegre et.
 
 4. Gerekli kütüphaneleri yüklemek için:
-   import http.client (https://docs.python.org/3/library/http.client.html)
-   import json
-   import pandas as pd
+   - import http.client (https://docs.python.org/3/library/http.client.html)
+   - import json
+   - import pandas as pd (pip install pandas)
 
-5. Python kodunu çalıştırarak COVID-19 istatistiklerini çekebilirsiniz.
+6. Python kodunu çalıştırarak COVID-19 istatistiklerini çekebilirsiniz.
 
-6. Python 3.10.8 sürümü kullanılmıştır.
+7. VS Code IDE - Python 3.10.8 sürümü kullanılmıştır.
 
 ## Kullanım:
 
