@@ -4,7 +4,25 @@ COVID-19 API PROJECT
 
 ## Açıklama:
 
-Bu proje, COVID-19 istatistiklerini çekmek için Rapid API kullanılarak oluşturulmuştur.
+- Bu proje, COVID-19 istatistiklerini çekmek için Rapid API kullanılarak oluşturulmuştur.
+- covid19_api_project.ipynb dosyası içerisinde tüm kodları görebilirsiniz.
+
+## Modüler Yapı
+
+Proje, daha modüler bir yapı kullanılarak aşağıdaki bölümlere ayrılmıştır:
+   -  main.ipynb:
+     - JSON Verisini İnceleme,
+     - DataFrame Oluşturma,
+     - DataFrame İnceleme,
+     - Eksik Verilerin Doldurulması,
+     - Pandas ayarlarını geçici olarak değiştirerek bilimsel gösterimi ve ondalık sıfırları kapatma,
+     - Belirli satırların çıkarılması işlemleri gerçekleştirilmiştir.
+    
+   - baglanti.py:
+   -    Bu dosyada, JSON formatında verinin alınması için HTTP bağlantısının nasıl yapılacağına dair kodlar bulunmaktadır.
+     
+   - analysis.ipynb:
+   -    Bu dosyada veri görselleştirme kodlarına ve çıktılarına ulaşabilirsiniz.
 
 ## Kurulum:
 
@@ -15,13 +33,13 @@ Bu proje, COVID-19 istatistiklerini çekmek için Rapid API kullanılarak oluşt
 3. Searh endpoints->Statistics'e tıklayarak tüm ülkeler için tüm güncel istatistiklerin getirilmesi için açılan kod penceresinden python->http.client 'e tıklayabilirsin.Python kodunu al ve kendi projene entegre et.
 
 4. Gerekli kütüphaneleri yüklemek için:
-   import http.client (https://docs.python.org/3/library/http.client.html)
-   import json
-   import pandas as pd
+   - import http.client (https://docs.python.org/3/library/http.client.html)
+   - import json
+   - import pandas as pd (pip install pandas)
 
-5. Python kodunu çalıştırarak COVID-19 istatistiklerini çekebilirsiniz.
+6. Python kodunu çalıştırarak COVID-19 istatistiklerini çekebilirsiniz.
 
-6. Python 3.10.8 sürümü kullanılmıştır.
+7. VS Code IDE - Python 3.10.8 sürümü kullanılmıştır.
 
 ## Kullanım:
 
