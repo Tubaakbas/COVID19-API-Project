@@ -49,7 +49,31 @@ def get_data(covid19_json):
     covid19_df=pd.DataFrame(data_list)
     return covid19_df
 
+def fill_missing_data(df):
+    # Popülation sütununda eksik değerleri medyan ile doldurma
+    df['Population'].fillna(df['Population'].median(), inplace=True)
+    
+    # Total_Tests, Total_Deaths, 
+    # Cases_Active, Cases_Critical, Cases_Recovered 
+    # sütununda eksik değerleri ortalama ile doldurma
+    df['Total_Tests'].fillna(df['Total_Tests'].mean(), inplace=True)
+    df['Total_Deaths'].fillna(df['Total_Deaths'].mean(), inplace=True)
+    df['Cases_Active'].fillna(df['Cases_Active'].mean(), inplace=True)
+    df['Cases_Critical'].fillna(df['Cases_Critical'].mean(), inplace=True)
+    df['Cases_Recovered'].fillna(df['Cases_Recovered'].mean(), inplace=True)
+    return df
+    
+
+def delete_row(df):
+    #Continent sütün için 'None' ve 'NotAvailable' değerleri içeren satırları sil
+    df[(pd.notna(df['Continent'])) & (df['Continent'] != 'NotAvailable')]
+    return df
+
 if __name__ == "__main__":
     get_json()
+    
     covid19_json=get_json()
-    get_data(covid19_json)
+    df=get_data(covid19_json)
+    
+    fill_missing_data(df)
+    
