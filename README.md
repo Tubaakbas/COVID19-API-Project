@@ -18,10 +18,10 @@ Proje, daha modüler bir yapı kullanılarak aşağıdaki bölümlere ayrılmı�
      - Belirli satırların çıkarılması işlemleri gerçekleştirilmiştir.
     
    - baglanti_dataframe.py:
-   -    Bu dosyada, JSON formatında verinin alınması için HTTP bağlantısının nasıl yapılacağına ve dataframe'in nasıl oluşturulacağına dair kodlar bulunmaktadır.
+      -Bu dosyada, JSON formatında verinin alınması için HTTP bağlantısının nasıl yapılacağına ve dataframe'in nasıl oluşturulacağına dair kodlar bulunmaktadır.
      
    - analysis.ipynb:
-   -    Bu dosyada veri görselleştirme kodlarına ve çıktılarına ulaşabilirsiniz.
+      -Bu dosyada veri görselleştirme kodlarına ve çıktılarına ulaşabilirsiniz.
 
 ## Kurulum:
 
